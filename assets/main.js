@@ -1,12 +1,12 @@
 console.log("caricato");
 
-const eur = 10;
-const tasso = 1.15;
+const currency = 10;
+const excangeRate = 1.15;
 
-function EurToUSD(eur, tasso) {
-    const usd = eur * tasso;
-    return usd;
+function ConvertEURtoUSD(currency, excangeRate) {
+    const result = currency * excangeRate;
+    return result;
 }
 
-const usd = EurToUSD(eur, tasso)
-console.log(eur, "EUR convertiti in USD sono", usd, "USD, con un tasso di cambio di", tasso);
+const usd = ConvertEURtoUSD(currency, excangeRate)
+console.log(currency, "EUR convertiti in USD sono", usd, "USD, con un tasso di cambio di", excangeRate);
