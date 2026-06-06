@@ -7,8 +7,7 @@ Stai pianificando un viaggio negli USA. Scrivi una funzione che converta una som
 ## Ragionamento
 - Dichiaro il valore in eur
 - Dichiaro il valore del tasso di cambio
-- Dichiaro una funzione "EurToUSD" con parametro un valore numerico eur
-- La funzione EurToUSD moltiplica il valore in eur per il tasso di cambio
+- Moltiplico il valore in eur per il tasso di cambio
 - Stampiamo il risultato
 
 
